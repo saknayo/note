@@ -20,7 +20,7 @@ class MainWindow(QMainWindow):
             self.mouseclick = True
             self.m_x = event.x()
             self.m_y = event.y()
-            print(self.m_x,self.m_y)
+            # print(self.m_x,self.m_y)
 
     def mouseMoveEvent(self, event):
         if self.mouseclick:
